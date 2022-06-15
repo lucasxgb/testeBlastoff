@@ -1,0 +1,175 @@
+*{
+    max-width: 100%;
+}
+
+html, body {
+	height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.container {
+    max-width: 1200px;
+	min-height: 100%;
+    background-color: #F5F5F5 ;
+}
+
+
+
+* html .container {
+	height: 100%; 
+}
+
+
+.container div{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADC8FF;
+}
+
+.letraA, .letraB, .letraC{
+    margin-left: 10px;
+}
+
+.letraA{
+    width: 1176px;
+    height: 20%;
+    border: 2px solid black;
+   
+    margin-right: 10px;
+}
+
+.letraB{
+    float: left;
+    width: 792px;
+    height: 40%;
+    border: 2px solid black;
+}
+
+.letraC{
+    
+    width: 384px;
+    height: 27.5%;
+    border: 2px solid black;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.letraD{
+    width: 384px;
+    height: 27.5%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 10px;
+    
+}
+
+.letraE{
+    width: 364px;
+    height: 69.7%;
+    border: 2px solid black;
+    float: right;
+    margin-right: 10px;
+    
+}
+
+div .letraE {
+    margin-top: -267px;
+}
+
+
+@media (max-width: 820px){
+    .container {
+        max-width: 780px;
+        padding: 10px;
+    }
+
+    .letraA, .letraB, .letraC{
+        margin-left: 0px;
+    }
+    div .letraE {
+        margin-top: 0px;
+    }
+    .letraA{
+        width: 770px;
+        height: 20%;
+    }
+    .letraB{
+        width: 770px;
+        height: 25%;
+        float: left;
+    }
+   
+    .letraC{
+        width: 369px;
+        height: 15%;
+        background-color: black;
+        margin-right: 14px;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .letraD{
+        width: 369px;
+        height: 15%;
+        margin-left: 14px;
+        float: left;
+    }
+ 
+    .letraE{
+        width: 770px;
+        height: 15%;
+        float: left;
+    }
+}
+
+
+@media (max-width: 360px){
+    .container {
+        max-width: 360px;
+        padding: 10px;
+    }
+
+    .letraA, .letraB, .letraC{
+        margin-left: 0px;
+    }
+    div .letraE {
+        margin-top: 0px;
+    }
+    .letraA{
+        margin: 0px;
+        width: 290px;
+        height: 20%;
+    }
+    .letraB{
+        width: 290px;
+        height: 25%;
+        float: left;
+    }
+   
+    .letraC{
+        margin-left: 0px;
+        width: 131px;
+        height: 15%;
+        background-color: black;
+        margin-bottom: 10px;
+        float: left;
+    }
+    .letraD{
+        width: 131px;
+        height: 15%;
+        margin-left: 10px;
+        float: left;
+    }
+ 
+    .letraE{
+        width: 290px;
+        height: 15%;
+        float: left;
+    }
+}
